@@ -1,0 +1,53 @@
+body {
+  background-color: rgba(255, 241, 137, 0.424);
+  font-family: 'Inconsolata', serif;
+  font-size: 48px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.rainbow {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+  background-image: gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+h1.cool {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-family: sans-serif;
+  font-size: 4rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: -4px 4px #ef3550,
+    -8px 8px #f48fb1,
+    -12px 12px #7e57c2,
+    -16px 16px #2196f3,
+    -20px 20px #26c6da,
+    -24px 24px #43a047,
+    -28px 28px #eeff41,
+    -32px 32px #f9a825,
+    -36px 36px #ff5722;
+}
+
+div#left {
+  display: inline-block;
+}
+
+div#center {
+  display: inline-block;
+}
+
+div#right {
+  display: inline-block;
+}
+
+div#everything {
+  position: relative;
+  text-align: center;
+}
