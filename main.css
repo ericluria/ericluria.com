@@ -51,3 +51,65 @@ div#everything {
   position: relative;
   text-align: center;
 }
+
+div#github {
+  position: left;
+  text-align: left;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link#github {
+  color: rgb(0, 255, 162);
+}
+
+a:visited#github {
+  color: rgb(0, 255, 162);
+}
+
+a:hover#github {
+  color: white;
+}
+
+a:link {
+  color: rgb(149, 200, 255);
+}
+
+a:visited {
+  color: rgb(149, 200, 255);
+}
+
+a:hover {
+  color: white;
+}
+
+a:link#skos {
+  color: #c3ff00
+}
+
+a:visited#skos {
+  color: #c3ff00
+}
+
+a:hover#skos {
+  color: white;
+}
+
+/* a:link {
+  color: rgb(255, 230, 0);
+}
+
+a:visited {
+  color: rgb(255, 230, 0);
+} */
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: rgb(246, 255, 0);
+}
